@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  background-color: #f5f2f0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  margin: 0 0 1.5rem;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 1rem;
+}
+
+h1, h2 {
+  font-family: "Denk One";
+  color: #623b0c;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "banner banner"
+    "col1 col2";
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: #ede3db;
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 1rem 1rem;
+}
+
+p {
+  margin: 0 0 auto;
+}
+
+a {
+  background-color: #623b0c;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  padding: .5em;
+  margin: 1.5rem 0 0;
+}
