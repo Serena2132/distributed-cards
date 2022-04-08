@@ -31,7 +31,7 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-  "banner banner"
+    "banner banner"
     "col1 col2";
   gap: 1rem;
   margin: 0;
